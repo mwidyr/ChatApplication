@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "374960762126",
+    "firebase_url": "https://chat-application-af04e.firebaseio.com",
+    "project_id": "chat-application-af04e",
+    "storage_bucket": "chat-application-af04e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374960762126:android:ae8cea7f463249cb",
+        "android_client_info": {
+          "package_name": "com.duxina.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374960762126-7p8tjqhp2hk3do9255j6sci51b45bqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7SjpEk_TYWyArNW2Mc2TskF5dPKHRvh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
