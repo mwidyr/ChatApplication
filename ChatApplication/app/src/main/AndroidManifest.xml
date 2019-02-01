@@ -20,7 +20,10 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".GroupChatAcitivity" />
+        <activity android:name=".ListNameActivity" />
+        <activity android:name=".PersonalChatActivity"></activity>
     </application>
 
 </manifest>

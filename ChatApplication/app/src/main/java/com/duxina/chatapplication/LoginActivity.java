@@ -7,7 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.duxina.chatapplication.Login_Fragment;
+import com.duxina.chatapplication.fragment.Login_Fragment;
+import com.duxina.chatapplication.utils.Utils;
 
 public class LoginActivity extends AppCompatActivity {
     private static FragmentManager fragmentManager;
@@ -41,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     // Replace Login Fragment with animation
-    protected void replaceLoginFragment() {
+    public void replaceLoginFragment() {
         fragmentManager
                 .beginTransaction()
                 .setCustomAnimations(R.anim.left_enter, R.anim.right_out)
